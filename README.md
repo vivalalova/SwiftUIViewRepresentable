@@ -6,7 +6,7 @@ Just convert SwiftUI and UIView with UIViewRepresentable and UIHostingController
 
 ```swift
     var body: some View {
-			UILabel()
+      UILabel()
         .swiftUIView() // convert to SwiftUI
         .uiView()      // convert to UIView
         .swiftUIView()
